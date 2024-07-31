@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gameName {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse:collapse;
+    text-align: center;
+    font-size: 5em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.startGame button {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: 50px;
+}
+
+.popup {
+    position: absolute;
+    top: 20%;
+    left: 44%;
+    width: 12%;
+    min-width: fit-content;
+}
+
+input {
+    width: 80%;
+    margin: 5px;
+    display: block;
+}
+
+label {
+    margin: 5px;
+}
+
+.popup button {
+    margin: 5px;
+    width: 40%;
+}
+
+.message {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 20%;
+    min-width: fit-content;
+}
+
+.message button {
+    margin: 5px;
+    width: 40%;
+}
+
+.gameInfo1,
+.gameInfo2 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+
+
+
+
+
