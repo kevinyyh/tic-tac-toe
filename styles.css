@@ -61,9 +61,19 @@ label {
     width: 40%;
 }
 
+.message div {
+    display: flex;
+    justify-content: center;
+}
+
 .message button {
-    margin: 5px;
     width: 40%;
+    margin: 5px;
+}
+
+.message p {
+    text-align: center;
+    margin: 5px;
 }
 
 .gameInfo1,
